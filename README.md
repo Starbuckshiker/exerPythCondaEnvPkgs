@@ -37,16 +37,17 @@
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(enter description or short answer here)|
-|What is the default package manager in Python?            |(enter description or short answer here)|
-|How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
-|`conda list`       |(enter description or short answer here)|
-|`conda env list`       |(enter description or short answer here)|
+|What is the purpose of having different environments?     |(lets the user specific environment for a specific application)|
+|What is the default package manager in Python?            |(pip-)|
+|How do you manage environments and packages in Anaconda?  |(virtualenv or Anaconda/ MiniConda)|
+|`conda list`       |(Shows you all the packages and versions installed in an active enviroment )|
+|`conda env list`       |(shows you all your environments)|
 |How do you keep your base environment unchanged?       |(enter description or short answer here)|
-|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(enter description or short answer here)|
-|`conda create --name XXXX`       |(enter description or short answer here)|
-|`source activate XXXX`       |(enter description or short answer here)|
-|`conda install YYYY`       |(enter description or short answer here)|
+|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(https://www.youtube.com/redirect?event=video_description&v=23aQdrS58e0&redir_token=QUFFLUhqbWhZWFBybnJJaHZzc0ZKMDVlZmo1aGtHaE1FZ3xBQ3Jtc0trM3dnX0kyNXpPZ1JRZXZqa2pfZVl0X0s0NVJselByWFZwM2JKWW9IajM2NW13MHRSbXV6QmZDOUVxb3UtMXJLVWhfcHQzODZhZlR3SFl0RkJIZkFvQ0JBdWF4aGozeVUweVpwV01vN1M5QUl5cmlYUQ%3D%3D&q=https%3A%2F%2Fconda.io%2Fdocs%2F_downloads%2Fconda-cheatsheet.pdf)|
+
+|`conda create --name XXXX`       |(conda create --name py35 python=3.5)|
+|`source activate XXXX`       |(source activate py35)|
+|`conda install YYYY`       |(conda install --reversion 2)|
 |channels in Conda       |(enter description or short answer here)|
 |`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
 |`conda config --show channels`       |(enter description or short answer here)|
