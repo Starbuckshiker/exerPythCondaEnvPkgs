@@ -48,24 +48,26 @@
 |`conda create --name XXXX`       |(conda create --name py35 python=3.5)|
 |`source activate XXXX`       |(source activate py35)|
 |`conda install YYYY`       |(conda install --reversion 2)|
-|channels in Conda       |(enter description or short answer here)|
-|`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
-|`conda config --show channels`       |(enter description or short answer here)|
-|`conda config --add channels ZZZZ`       |(enter description or short answer here)|
-|conda-forge.org       |(enter description or short answer here)|
-|`source deactivate`       |(enter description or short answer here)|
-|`conda config --get channels`       |(enter description or short answer here)|
+|channels in Conda       |(tells conda to look for the packaage else where)|
+|`conda install -c ZZZZ YYYY`       |(you can install different packages in the different enviroments)|
+|`conda config --show channels`       |(shows you the channels you have)|
+|`conda config --add channels ZZZZ`       |(you can add additional channels to find/ install the package you are looking for)|
+|conda-forge.org       |(highest priority channel)|
+|`source deactivate`       |(to switch or go back to base channel)|
+|`conda config --get channels`       |(allows you to look at the level of priority )|
 
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
 ```
-#Paste your results here.
+base                     C:\Users\dlist\anaconda3
+ai37                     C:\Users\dlist\anaconda3\envs\ai37
+da35                  *  C:\Users\dlist\anaconda3\envs\da35
 
 
 ```
 * What command would you use to remove the environments you created for this exercise from your computer?
 
 ```
-#Type the command here.
+conda env remove --name [Name(s) of env to remove]
 
 ```
